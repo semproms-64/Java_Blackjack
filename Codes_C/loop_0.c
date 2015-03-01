@@ -6,9 +6,9 @@ int main()
 	static int array[SIZE][SIZE];
 	int i, j;
 
-	for (i = 0; i < SIZE; ++i)
+	for (i = 0; i < SIZE; j++)
 	{
-		for (j = 0; i < SIZE; ++i)
+		for (j = 0; j < SIZE; j++)
 		{
 			array[i][j] = i*2;
 		}
